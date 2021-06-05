@@ -10,6 +10,14 @@
 
 > A basic compose web project template
 
+## 🏃 Run
+
+```
+./gradlew jsBrowserRun
+```
+
+
+
 ## ✍️ Author
 
 👤 **theapache64**
