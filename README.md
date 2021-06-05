@@ -16,7 +16,11 @@
 ./gradlew jsBrowserRun
 ```
 
+## 📦 Distribute
 
+```
+./gradlew jsBrowserDistribution // and then open index.html (build/distributions)
+```
 
 ## ✍️ Author
 
