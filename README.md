@@ -10,6 +10,10 @@
 
 > A basic compose web project template
 
+## 💻 Demo
+
+![](demo.gif)
+
 ## 🏃 Run
 
 ```
