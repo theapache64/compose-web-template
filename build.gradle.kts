@@ -28,5 +28,5 @@ kotlin {
 }
 // Workaround for https://youtrack.jetbrains.com/issue/KT-49124
 rootProject.extensions.configure<org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension> {
-    versions.webpackCli.version = "4.9.0"
+    versions.webpackCli.version = "4.10.0"
 }
