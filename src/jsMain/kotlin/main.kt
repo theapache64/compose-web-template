@@ -11,8 +11,15 @@ import org.jetbrains.compose.web.renderComposable
 
 fun main() {
     var count by mutableStateOf(0)
-
+    
     renderComposable(rootElementId = "root") {
+
+        Div {
+            org.jetbrains.compose.web.dom.H1 {
+                Text("Hello Compose Web!")
+            }
+        }
+
         Div({ style { padding(25.px) } }) {
             Button(attrs = {
                 onClick { count -= 1 }
